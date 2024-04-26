@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/baclground4"
+    tools:context=".Dangnhap">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="160dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chào mừng bạn đã trở lại, "
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vui lòng đăng nhập để tiếp tục"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/input">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/txtUsername"
+                android:hint="Nhập username"
+                android:textColorHint="#580AE3"
+                android:textColor="#E11818"
+                android:textSize="20sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/txtPassword"
+                android:hint="Nhập password"
+                android:inputType="textPassword"
+                android:textColorHint="#580AE3"
+                android:textColor="#E11818"
+                android:textSize="20sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <CheckBox
+            android:id="@+id/chkSave"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ghi nhớ tài khoản"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
+            <Button
+                android:id="@+id/btnSignin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đăng nhập"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@drawable/signin"
+                android:letterSpacing="0.1"/>
+            <Button
+                android:id="@+id/btnDangki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đăng ký"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@drawable/signin"
+                android:backgroundTint="#673AB7"
+                android:layout_marginLeft="70dp"
+                android:letterSpacing="0.1"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/img_5"
+            android:layout_gravity="center"
+            android:layout_marginTop="140dp"
+            android:id="@+id/imgHome" />
+
+    </LinearLayout>
+</LinearLayout>

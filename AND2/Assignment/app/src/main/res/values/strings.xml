@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="forgot_password"><u>Forgot password?</u></string>
+    <string name="sign_up">Don\'t have an account? <b>Sign up</b></string>
+    <string name="open">open nav</string>
+    <string name="close">close nav</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sua"><u>Chỉnh sửa</u></string>
+    <string name="xoa"><u>Xóa</u></string>
+</resources>

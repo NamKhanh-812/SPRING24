@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/baclground4"
+    android:gravity="center_horizontal"
+    tools:context=".Menu">
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quán lý nhân sự"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        android:textColor="#3F51B5"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="fpoly software company"
+        android:textAllCaps="true"
+        android:textColor="#FFEB3B"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp">
+        <Button
+            android:id="@+id/btnPBan"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/home"
+            android:drawableTint="#E91E63"
+            android:textColor="#E91E63"
+            android:text="Phòng Ban"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:background="@drawable/input" />
+        <Button
+            android:id="@+id/btnNV"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/baseline_groups_24"
+            android:drawableTint="#2196F3"
+            android:textColor="#2196F3"
+            android:text="Nhân Viên"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:background="@drawable/input"
+            android:layout_marginLeft="50dp"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:drawableTop="@drawable/baseline_exit_to_app_24"
+        android:text="Thoát"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAllCaps="false" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/img_5"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"
+        android:id="@+id/imghome" />
+</LinearLayout>

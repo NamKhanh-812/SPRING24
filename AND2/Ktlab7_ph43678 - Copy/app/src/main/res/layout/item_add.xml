@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="20dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="70dp"
+        android:text="THÊM KHÁCH HÀNG MỚI "
+        android:textColor="#FF5722"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtMaKhA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/custom"
+        android:hint="Mã"
+        android:padding="10dp"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/edtTenKhA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/custom"
+        android:hint="Tên"
+        android:padding="10dp"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtQueQuanA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/custom"
+        android:hint="Quê quán"
+        android:padding="10dp"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtGioiTinhA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/custom"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:hint="Giới tính"
+        android:inputType="none"
+        android:padding="10dp"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtNgaySinhA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom"
+        android:hint="Ngày sinh"
+        android:inputType="date"
+        android:padding="10dp"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btnThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom"
+        android:text="ADD" />
+
+</LinearLayout>

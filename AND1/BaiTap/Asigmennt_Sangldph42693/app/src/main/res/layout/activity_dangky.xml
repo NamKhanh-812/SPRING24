@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/baclground4"
+    tools:context=".Dangky">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="120dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chào mừng bạn,"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng ký tài khoản"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/input">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/txtUser"
+                android:hint="Nhập username"
+                android:textColorHint="#580AE3"
+                android:textColor="#E11818"
+                android:textSize="20sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/txtPass"
+                android:hint="Nhập password"
+                android:inputType="textPassword"
+                android:textColorHint="#580AE3"
+                android:textColor="#E11818"
+                android:textSize="20sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/txtComfirm"
+                android:inputType="textPassword"
+                android:hint="Nhập lại password"
+                android:textColorHint="#580AE3"
+                android:textColor="#E11818"
+                android:textSize="20sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnDK"
+            android:text="Đăng ký"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/signin"
+            android:backgroundTint="#673AB7"
+            android:textColor="@color/white"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnBack"
+            android:text="Trở về"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:background="@drawable/signin"
+            android:backgroundTint="#0A0A0B"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>

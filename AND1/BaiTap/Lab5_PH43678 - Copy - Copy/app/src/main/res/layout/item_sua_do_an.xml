@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NHẬP LẠI THÔNG TIN MÓN ĂN"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#58BDCA"
+        />
+    <EditText
+        android:id="@+id/edtSuaTenMonAn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên món ăn"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@drawable/custom"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:id="@+id/edtSuaGiaMonAn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập giá món ăn"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@drawable/custom"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:id="@+id/edtSuaDiaChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập địa chỉ món ăn"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@drawable/custom"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/btnXong"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/khung_doan"
+        android:text="Xong"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+</LinearLayout>

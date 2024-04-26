@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|left"
+    android:orientation="vertical"
+    tools:context=".DangKy">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chào mừng bạn,"
+            android:textColor="#03A9F4"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:text="Đăng ký tài khoản"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D6D6D6"
+            app:hintEnabled="true"
+            >
+            <EditText
+                android:id="@+id/edtUser"
+                android:padding="10dp"
+                android:background="#D6D6D6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nhập username"
+                android:inputType="textEmailAddress"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintEnabled="true"
+            android:background="#D6D6D6"
+            android:layout_marginTop="10dp"
+            app:passwordToggleEnabled="true"
+            >
+
+            <EditText
+                android:id="@+id/edtPass"
+                android:background="#D6D6D6"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nhập password"
+                android:inputType="textPassword"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintEnabled="true"
+            android:layout_marginTop="10dp"
+            android:background="#D6D6D6"
+            app:passwordToggleEnabled="true"
+            >
+
+            <EditText
+                android:id="@+id/edtPassCf"
+                android:background="#D6D6D6"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nhập lại password"
+                android:inputType="textPassword"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnDK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ĐĂNG KÝ"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:backgroundTint="#03A9F4"
+            />
+        <Button
+            android:id="@+id/btnTroVe"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TRỞ VỀ"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:backgroundTint="#686868"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

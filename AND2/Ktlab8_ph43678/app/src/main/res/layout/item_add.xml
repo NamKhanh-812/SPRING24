@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDFDFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="70dp"
+        android:fontFamily="@font/aclonica"
+        android:text="THÊM MÔN MỚI "
+        android:textColor="#E1947C"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtMaMonHocA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/custom"
+        android:hint="Mã môn học"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/edtTenMonHocA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/custom"
+        android:hint="Tên môn học"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtSoTietA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/custom"
+        android:hint="Số tiết"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btnThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom"
+        android:text="ADD" />
+
+</LinearLayout>

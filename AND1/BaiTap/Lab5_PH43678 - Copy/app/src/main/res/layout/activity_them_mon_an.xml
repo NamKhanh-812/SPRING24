@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".ThemMonAn">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="THÊM MÓN ĂN"
+        android:textColor="#FF5722"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"/>
+    <EditText
+        android:id="@+id/edtTenMon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên món ăn"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/custom"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:id="@+id/edtGiaMon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập giá món ăn"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/custom"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:id="@+id/edtDiaChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập địa chỉ"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/custom"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/btnThemDs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:background="@drawable/custom"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

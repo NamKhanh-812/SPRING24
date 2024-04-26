@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    android:oneshot="false"
+    android:id="@+id/hinh"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:duration="1000"
+        android:drawable="@drawable/logo"/>
+    <item
+        android:drawable="@drawable/quat"
+        android:duration="1000"
+        />
+</animation-list>

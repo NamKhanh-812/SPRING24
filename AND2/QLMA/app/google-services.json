@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "377811795166",
+    "project_id": "monan-21b46",
+    "storage_bucket": "monan-21b46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377811795166:android:4fd74effba5de04eff564f",
+        "android_client_info": {
+          "package_name": "com.example.qlma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377811795166-u7hurks0ai8llr8iahua7jcb9ur6mspc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.qlma",
+            "certificate_hash": "4db17fe41507ba2402b12f060f7dd82d6baf5caa"
+          }
+        },
+        {
+          "client_id": "377811795166-p5458vs88rk8e39le19kesotq8s9k20o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyQ63QRe7c9yt5MaD48Lb8c0PdQc8enIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377811795166-p5458vs88rk8e39le19kesotq8s9k20o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Bai2a">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bạn muốn mua gì ?"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/edtTenSp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập vào thứ bạn cần mua!"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sau khi ấn nút gửi hãy đợi nhà bán hàng báo giá"
+        />
+    <Button
+        android:id="@+id/btnGui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gửi"/>
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giá sản phẩm là:"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#03A9F4"/>
+    <TextView
+        android:id="@+id/txtGia"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#F44336"/>
+
+</LinearLayout>

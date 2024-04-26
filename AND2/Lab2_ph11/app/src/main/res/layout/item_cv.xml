@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/khung"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/chkcv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txttieude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#2196F3"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/txtnoidung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#2196F3"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/txtngay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#2196F3"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/txtloai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#2196F3"
+                android:textSize="26sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageButton
+                android:id="@+id/btnupdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/edit" />
+
+            <ImageButton
+                android:id="@+id/btndelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/delete" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

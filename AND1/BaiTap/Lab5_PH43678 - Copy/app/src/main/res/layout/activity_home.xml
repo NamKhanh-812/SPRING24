@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+    <include layout="@layout/toolbar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DANH SÁCH SINH VIÊN"
+        android:background="@drawable/custom"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textSize="26dp"/>
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:textSize="26dp"
+        android:background="@drawable/nut_add_do_an"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:layout_gravity="end"/>
+    <ListView
+        android:id="@+id/lstHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#2196F3"
+        android:dividerHeight="2dp"
+        />
+
+</LinearLayout>

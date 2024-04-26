@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".DoAn">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh sách đồ ăn"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textColor="#CDDC39"
+        />
+        <Button
+            android:id="@+id/btnThemMon"
+            android:padding="10dp"
+
+            android:background="@drawable/nut_add_do_an"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thêm món"
+            android:gravity="center"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+    <ListView
+        android:id="@+id/lstDsDoAn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>

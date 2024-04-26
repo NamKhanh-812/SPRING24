@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Trang2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Danh sách khách hàng"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        android:textColor="#FF0000"
+        />
+    <ListView
+        android:id="@+id/lstDanhSach"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#2196F3"
+        android:dividerHeight="1dp"
+        />
+
+</LinearLayout>
